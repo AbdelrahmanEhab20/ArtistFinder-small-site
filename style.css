@@ -336,3 +336,86 @@ body {
   font-size: 14px;
   text-transform: capitalize;
 }
+/* Responsiveness ---> MEDIA QUARRIES */
+@media (max-width: 1200px) {
+  .main {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .photo-1 {
+    display: none;
+  }
+}
+
+@media (max-width: 965px) {
+  .search {
+    padding: 40px 0 50px;
+  }
+
+  .photo-2 {
+    display: none;
+  }
+
+  .credentials {
+    max-width: 500px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    row-gap: 35px;
+    column-gap: 35px;
+  }
+
+  .how {
+    padding: 50px 0 65px;
+  }
+
+  .steps {
+    padding: 60px 0;
+    max-width: 500px;
+    flex-wrap: wrap;
+    row-gap: 35px;
+  }
+}
+
+@media (max-width: 600px) {
+  .main {
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 0;
+  }
+
+  .steps {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+  }
+}
+
+@media (max-width: 470px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 35px;
+    margin-bottom: 15px;
+  }
+
+  .first-heading {
+    max-width: initial;
+    padding: 0 20px;
+    font-size: 34px;
+  }
+
+  .form {
+    width: 100%;
+  }
+
+  .input,
+  .btn {
+    border-radius: 0;
+  }
+}
